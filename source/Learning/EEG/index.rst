@@ -3,21 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Aknife个人博客's documentation!
+脑电相关
 ==========================================
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
 
-   Learning/index
-   Tools/index
-   Other/index
+   article1.md
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

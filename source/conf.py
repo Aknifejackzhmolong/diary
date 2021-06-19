@@ -57,7 +57,31 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'pydata_sphinx_theme'
+html_logo = "_static/logo.svg"
+
+html_theme_options = {
+    "external_links": [
+        {"url": "https://pandas.pydata.org/pandas-docs/stable/", "name": "Pandas Docs"}
+    ],
+    "github_url": "https://github.com/pydata/pydata-sphinx-theme",
+    "twitter_url": "https://twitter.com/pandas_dev",
+    "icon_links": [
+        {
+            "name": "PyPI",
+            "url": "https://pypi.org/project/pydata-sphinx-theme",
+            "icon": "fas fa-box",
+        }
+    ],
+    # "use_edit_page_button": True,
+    "show_toc_level": 1,
+    # "search_bar_position": "navbar",  # TODO: Deprecated - remove in future version
+    # "navbar_align": "left",  # [left, content, right] For testing that the navbar items align properly
+    # "navbar_start": ["navbar-logo", "navbar-version"],
+    # "navbar_center": ["navbar-nav", "navbar-version"],  # Just for testing
+    # "navbar_end": ["navbar-icon-links", "navbar-version"]  # Just for testing
+    # "footer_items": ["copyright", "sphinx-version", ""]
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
